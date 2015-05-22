@@ -1,0 +1,6 @@
+S ::= (+ "Junior"|++ "Senior"|- "Head of"|-- "Chief of"|_) ("Web"|"SEO"|"Usability"|"PPC"|"User" ("Ex"|-- "X")^perience|"IT"|"Termoconvector") (dev(^ (-- eloper)|_)|marketing|designer) ATTR;
+ATTR ::= (--------(ultra| super|mega)|_) (ATTR ATTR|+ manager|assistant|expert|evangelist|-------- god|+ specialist|officer|ninja|_);
+
+
+I ::= "Perche' con il webmarketing non si scherza un cazzo.";
+
