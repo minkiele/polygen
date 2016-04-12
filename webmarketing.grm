@@ -1,5 +1,5 @@
 S ::= TITLE ATTR (_|----- and S);
-PRODUCT ::= "WordPress"|"Drupal"|"Laravel"|"Zend Framework"|"Ubuntu"|"CentOS"|"Contao"|"Symfony"^ (2|" ")|>("Microsoft"|"MS"|++_) ("Office"|"Word"|+++"Excel"|"Powerpoint"|"PPT")|spreadsheet;
+PRODUCT ::= "WordPress"|"Drupal"|"Laravel"|"Zend Framework"|"Ubuntu"|"CentOS"|"Contao"|"Symfony"^ (2|" ")|>("Microsoft"|"MS"|++_) ("Office"|"Word"|+++"Excel"|"Powerpoint"|"PPT")|spreadsheet|+"Gantt"|"Internet" >(++ of things|_);
 TITLE ::= (+ "Junior"|++ "Senior"|- "Head of"|-- "Chief of"|"Independent"|"Social"|"Leading"|_) ("web"|"SEO"|"usability"|"PPC"|"user" ("ex"|-- "X")^perience|"IT"|t^(h|_)^ermoconvector|"visual"|"material"|"content"|"omnichannel"|((++++"art"|"Hard") "director")|"contingen"^>(ce|cy|tation)|"customer service"|"Scrum"|"media"|>PRODUCT) (dev(^ (-- elop^(er|ment))|_)|(---"tele"^|_)marketing|design(^er|_)|administrati^(on|ve)|facilitator|strategy);
 ATTR ::= (--------------- tele^|_)(ATTR ATTR|+ manager|assistant|expert|evangelist|+ specialist|officer|ninja|guru|(-vice^|_)president|coadiuvator|compensator|executor|challenger|deployer|contractor|administrator|intern|editor|+advocate|enforcer|collaborator|strategist|master|_);
 
