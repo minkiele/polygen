@@ -1,6 +1,16 @@
 S ::= TITLE ATTR (_|----- and S);
-PRODUCT ::= "WordPress"|"Drupal"|"Laravel"|"Zend Framework"|"Ubuntu"|"CentOS"|"Contao"|"Symfony"^ (2|" ")|>("Microsoft"|"MS"|++_) ("Office"|"Word"|+++"Excel"|"Powerpoint"|"PPT")|spreadsheet|+"Gantt"|"Internet" >(++ of things|_);
-TITLE ::= (+ "Junior"|++ "Senior"|- "Head of"|-- "Chief of"|"Independent"|"Social"|"Leading"|_) ("web"|"SEO"|"usability"|"PPC"|"user" ("ex"|-- "X")^perience|"IT"|t^(h|_)^ermoconvector|"visual"|"material"|"content"|"omnichannel"|((++++"art"|"Hard") "director")|"contingen"^>(ce|cy|tation)|"customer service"|"Scrum"|"media"|>PRODUCT) (dev(^ (-- elop^(er|ment))|_)|(---"tele"^|_)marketing|design(^er|_)|administrati^(on|ve)|facilitator|strategy);
-ATTR ::= (--------------- tele^|_)(ATTR ATTR|+ manager|assistant|expert|evangelist|+ specialist|officer|ninja|guru|(-vice^|_)president|coadiuvator|compensator|executor|challenger|deployer|contractor|administrator|intern|editor|+advocate|enforcer|collaborator|strategist|master|_);
+
+PRODUCT ::= -->SO|>CMS|>OFFICE|++>TOOLS;
+
+CMS ::= "WordPress"|"Drupal"|"Laravel"|"Zend Framework"(++2|--3|----4|_)|"Contao"|"Symfony"^ (2|" ");
+SO ::= "Ubuntu"|"CentOS"|"Red Hat"|"Windows" >("3.11"|95|98|2000|"2003 Server"|"Vista"|7|8|10|_);
+OFFICE ::= >("Microsoft"|"MS"|++_) ("Office" >(97|2003|2010|365|++_)|"Word"|+++"Excel"|"Powerpoint")|"Spreadsheet"|"PPT";
+TOOLS ::= +"Gantt"|"Internet" >(++ of things|_)|"CRM";
+
+FUFFA ::= "Web"|"SEO"|usability|"PPC"|"User" (ex|-- "X")^perience|"I" ^ >("C"|+++++_) ^ "T"|t^(h|_)^ermoconvector|visual|material|content|improvement|omnichannel|((++++art|"Hard") director)|contingen^>(ce|cy|tation)|customer service|"Scrum"|media|>PRODUCT;
+
+AJD ::= (+ "Junior"|++ "Senior"|- "Head of"|-- "Chief of"|"Independent"|"Social"|"Leading"|++"Freelance"|"Guest"|_);
+TITLE ::= FUFFA (dev(^ (-- elop^(er|ment))|_)|(---tele^|_)marketing|design(^er|_)|administrati^(on|ve)|facilitator|strategy);
+ATTR ::= (--------------- "tele-"^|_)(ATTR ATTR|+ manager|assistant|expert|evangelist|+ specialist|office^(+++r|_)|ninja|guru|(-vice^|_)president|coadiuvator|compensator|executor|challenger|deployer|contractor|administrator|intern|editor|+advocate|enforcer|---collaborator|strategist|master|>(speaker|reader|lecturer) >(^_|"&" ATTR)|"Digital" (average ATTR|"Champion")|provider|_);
 
 I ::= "Perche' con il webmarketing non si scherza un cazzo. Ora" (con ancora piu' titoli|a potenziale infinito ^(_|+"++")) ^".";
