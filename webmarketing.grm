@@ -11,6 +11,6 @@ FUFFA ::= "Web"|"SEO"|usability|"PPC"|"User" (ex|-- "X")^perience|"I" ^ >("C"|++
 
 AJD ::= (+ "Junior"|++ "Senior"|- "Head of"|-- "Chief of"|"Independent"|"Social"|"Leading"|++"Freelance"|"Guest"|_);
 TITLE ::= FUFFA (dev(^ (-- elop^(er|ment))|_)|(---tele^|_)marketing|design(^er|_)|administrati^(on|ve)|facilitator|strategy);
-ATTR ::= (--------------- "tele-"^|_)(ATTR ATTR|+ manager|assistant|expert|evangelist|+ specialist|office^(+++r|_)|ninja|guru|(-vice^|_)president|coadiuvator|compensator|executor|challenger|deployer|contractor|administrator|intern|editor|+advocate|enforcer|---collaborator|strategist|master|>(speaker|reader|lecturer) >(^_|"&" ATTR)|"Digital" (average ATTR|"Champion")|provider|_);
+ATTR ::= (--------------- "tele-"^|_)(ATTR ATTR|+ manager|assistant|expert|evangelist|+ specialist|office^(+++r|_)|ninja|guru|(-vice^|_)president|coadiuvator|compensator|executor|challenger|deployer|contractor|administrator|intern|editor|+advocate|enforcer|---collaborator|strategist|master|>(speaker|reader|lecturer) >(^_|"&" ATTR)|"Digital" (average ATTR|"Champion")|provider|>(---de^|_) motivator|_);
 
 I ::= "Perche' con il webmarketing non si scherza un cazzo. Ora" (con ancora piu' titoli|a potenziale infinito ^(_|+"++")) ^".";
